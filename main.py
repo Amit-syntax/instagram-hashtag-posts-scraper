@@ -123,6 +123,7 @@ def scrapePosts(posts):
 
 
 client.login(username=username, password=password)
+time.sleep(15)
 posts = []
 if scrapeRemaining:
     if os.path.exists("post_url.txt") and scrapeRemaining:
