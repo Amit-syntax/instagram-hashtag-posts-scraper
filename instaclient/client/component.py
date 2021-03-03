@@ -140,6 +140,7 @@ class Component:
                     chrome_options.add_argument("--disable-setuid-sandbox")
                     chrome_options.add_argument("--remote-debugging-port=9222")
                     chrome_options.add_argument('--log-level=4')
+                    chrome_options.add_argument("--user-data-dir=selenium")
                     chrome_options.add_argument(
                         '--blink-settings=imagesEnabled=false')
                     chrome_options.add_experimental_option(
@@ -164,6 +165,7 @@ class Component:
                     chrome_options.add_argument("--disable-dev-shm-usage")
                     chrome_options.add_argument('--log-level=4')
                     chrome_options.add_argument("--no-sandbox")
+                    chrome_options.add_argument("--user-data-dir=selenium")
                     chrome_options.add_argument(
                         '--blink-settings=imagesEnabled=false')
 
