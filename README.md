@@ -13,3 +13,10 @@ optional arguments:
   --scraperemaining     scrape remaining post url form "post_url.txt".
   --ImagesPath=         give images folder path or it will take default path as "Images".
 ```
+
+# requirements to install
+
+```
+pip install wget
+pip install pandas
+```
