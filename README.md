@@ -32,3 +32,11 @@ pip install selenium
 pip install requests
 ```
 boom you are ready to go.
+
+
+# how to change the path of chrome driver
+```
+**inside main.py**
+line **47**
+client = InstaClient(driver_path='YOUR chromedriver PATH HERE')
+```
