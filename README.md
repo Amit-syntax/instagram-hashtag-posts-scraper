@@ -14,9 +14,20 @@ optional arguments:
   --ImagesPath=         give images folder path or it will take default path as "Images".
 ```
 
+# setup the instagram-scraper
+```
+$ git clone https://github.com/Amit-syntax/insta-v2
+$ cd insta-v2
+$ python3 -m venv env
+$ source env/bin/activate
+$ cp instaclient/ -r ./env/lib/python3.8/site-packages
+```
+
 # requirements to install
 
 ```
 pip install wget
 pip install pandas
+pip install selenium
 ```
+boom you are ready to go.
