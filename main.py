@@ -44,7 +44,7 @@ ouputfile = "output.csv" if (args["o="] == None) else args["o="]
 scrapeRemaining = args["scraperemaining"]
 
 global client
-client = InstaClient(driver_path='chromedriver.exe')
+client = InstaClient(driver_path='./chromedriver')
 
 global df
 
