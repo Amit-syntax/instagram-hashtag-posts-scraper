@@ -29,5 +29,6 @@ $ cp instaclient/ -r ./env/lib/python3.8/site-packages
 pip install wget
 pip install pandas
 pip install selenium
+pip install requests
 ```
 boom you are ready to go.
