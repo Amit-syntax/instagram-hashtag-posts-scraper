@@ -107,10 +107,10 @@ def scrapePosts(posts):
             a.to_csv(ouputfile, index=False)
             exit()
 
-        # except:
-        #     print("-------------- error in scraping 1 post -------------------")
-        #     a = df.copy()
-        #     a.to_csv(ouputfile, index=False)
+        except:
+            print("-------------- error in scraping 1 post -------------------")
+            a = df.copy()
+            a.to_csv(ouputfile, index=False)
 
         finally:
             a = open("post_url.txt", "w")
